@@ -1,0 +1,22 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Yagotro Hub Ro Ghoul", "BloodTheme")
+--Main
+local Tab = Window:NewTab("Script Hub")
+local MainSection = Tab:NewSection("Script Hub")
+
+
+MainSection:NewButton("Script 1", "Execute!", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/z4gs/scripts/master/Ro-Ghoul%20Auto%20Farm.lua"))()
+
+end)
+
+local Tab = Window:NewTab("Owner")
+local MainSection = Tab:NewSection("Yagotro Hub")
+
+MainSection:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.E, function()
+	Library:ToggleUI()
+end)
+
+MainSection:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.E, function()
+	print("You just clicked the bind")
+end)
