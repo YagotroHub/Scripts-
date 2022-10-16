@@ -5,7 +5,7 @@ local Tab = Window:NewTab("Script Hub")
 local MainSection = Tab:NewSection("Script Hub")
 
 
-MainSection:NewButton("Script 1", "Execute!", function()
+MainSection:NewButton("Execute Me!", "Execute!", function()
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/z4gs/scripts/master/Ro-Ghoul%20Auto%20Farm.lua"))()
 
 end)
