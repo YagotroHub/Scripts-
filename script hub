@@ -10,5 +10,5 @@ MainSection:NewButton("Ro Ghoul Script Hub", "Hi", function()
 end)
 
 MainSection:NewButton("Strong Punch Sim", "Hi", function()
-    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/YagotroHub/Scripts-/main/strongpunchmansim"))()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/YagotroHub/Scripts-/main/STRONGEST%20PUNCH%20MAN%20S%C4%B0MULATOR"))()
 end)
