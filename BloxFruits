@@ -1,0 +1,9 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Yagotro Hub Blox Fruit", "BloodTheme")
+--Menüler
+local Tab = Window:NewTab("Script")
+local MainSection = Tab:NewSection("Scripts")
+--Buttons
+MainSection:NewButton("Mukuro Powered By Yagotro", "ButtonInfo", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
