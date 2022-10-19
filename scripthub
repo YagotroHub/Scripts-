@@ -22,5 +22,5 @@ MainSection:NewButton("Blox Fruits", "Hi", function()
 end)
 
 MainSection:NewButton("King Legeacy", "Wtf", function()
-    print("Coming Soon")
+    print("Coming Sooon")
 end)
