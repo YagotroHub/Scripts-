@@ -16,3 +16,11 @@ end)
 MainSection:NewButton("Tapping Simulator", "Hi", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/YagotroHub/Scripts-/main/tappingsimulator"))()
 end)
+
+MainSection:NewButton("Blox Fruits", "Hi", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YagotroHub/Scripts-/main/BloxFruits"))()
+end)
+
+Section:NewButton("King Legeacy", "Wtf", function()
+    print("Coming Soon")
+end)
