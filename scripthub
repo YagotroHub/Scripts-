@@ -14,5 +14,5 @@ MainSection:NewButton("Strong Punch Sim", "Hi", function()
 end)
 
 MainSection:NewButton("Tapping Simulator", "Hi", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/YagotroHub/Scripts-/main/tappingsimulator'))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YagotroHub/Scripts-/main/tappingsimulator"))()
 end)
