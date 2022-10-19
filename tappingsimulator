@@ -1,0 +1,10 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Tapping Simulator", "BloodTheme")
+--Main
+local Tab = Window:NewTab("Auto")
+local MainSection = Tab:NewSection("Farm")
+
+
+MainSection:NewButton("Auto Click", "Auto Clicker ", function()
+    _G.Tap = true spawn(function() while _G.Tap == true do local args = { [1] = 5 } game:GetService("ReplicatedStorage").Events.Tap:FireServer(unpack(args)) wait() end end)
+end)
