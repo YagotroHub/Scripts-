@@ -21,6 +21,3 @@ MainSection:NewButton("Blox Fruits", "Hi", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/YagotroHub/Scripts-/main/BloxFruits"))()
 end)
 
-MainSection:NewButton("King Legeacy", "Wtf", function()
-    print("Coming Sooon")
-end)
