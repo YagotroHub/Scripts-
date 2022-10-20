@@ -21,6 +21,6 @@ MainSection:NewButton("Blox Fruits", "Hi", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/YagotroHub/Scripts-/main/BloxFruits"))()
 end)
 
-Section:NewButton("Slime Tower Factory", "Not İnfo", function()
+MainSection:NewButton("Slime Tower Factory", "Not İnfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/YagotroHub/Scripts-/main/slimetowertycoonbyyagotro"))()
 end)
