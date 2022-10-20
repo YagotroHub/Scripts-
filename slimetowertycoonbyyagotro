@@ -1,0 +1,15 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Yagotro Hub", "BloodTheme")
+
+local Tab = Window:NewTab("Yagotro Script")
+local MainSection = Tab:NewSection("Hi Bro")
+
+MainSection:NewButton("Script", "Hi", function()
+    -- to stop run: getgenv().Enabled = false
+getgenv().Enabled = true
+loadstring(game:HttpGet("https://pastebin.com/raw/xGCE8CNb"))()
+end)
+
+MainSection:NewButton("Anti Afk", "Anti İdle", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YagotroHub/Scripts-/main/AntiAfk"))()
+end)
