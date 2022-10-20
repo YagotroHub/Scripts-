@@ -1,0 +1,26 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Yagotro Hub", "BloodTheme")
+--Main
+local Tab = Window:NewTab("Games")
+local MainSection = Tab:NewSection("Games")
+
+
+MainSection:NewButton("Ro Ghoul Script Hub", "Hi", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YagotroHub/Scripts-/main/RoGhoul", true))()
+end)
+
+MainSection:NewButton("Strong Punch Sim", "Hi", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/YagotroHub/Scripts-/main/strongpunchmansim"))()
+end)
+
+MainSection:NewButton("Tapping Simulator", "Hi", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YagotroHub/Scripts-/main/tappingsimulator"))()
+end)
+
+MainSection:NewButton("Blox Fruits", "Hi", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YagotroHub/Scripts-/main/BloxFruits"))()
+end)
+
+MainSection:NewButton("Slime Tower Factory", "Not İnfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YagotroHub/Scripts-/main/slimetowertycoonbyyagotro"))()
+end)
